@@ -84,7 +84,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../Gerber Files/Panel/")
+      (outputdirectory "../Gerber Files/")
     )
   )
 
@@ -794,7 +794,7 @@
 
   (footprint "1_CUSTOM:logo_drachma_full_final_for_PCB" (layer "F.Cu")
     (tedit 0) (tstamp cbb7f8e8-295a-4746-aff6-5cd9c6da3282)
-    (at 73.875 156.5)
+    (at 73.75 156.25)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -4867,7 +4867,7 @@
     (pts (xy 120.125 54.5) (xy 130.25 69.5))
     (height -23.125)
     (orientation 1)
-    (gr_text "15.0000 mm" (at 95.85 62 90) (layer "Dwgs.User") (tstamp 891fcded-4592-4e7c-bb8a-e561724362a4)
+    (gr_text "15.0000 mm" (at 95.85 62 90) (layer "Dwgs.User") (tstamp 2881b8d2-7ea9-400a-9dd1-be9381fda90b)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -4987,7 +4987,7 @@
     (pts (xy 73.625 69.5) (xy 63.5 54.5))
     (height -34.625)
     (orientation 1)
-    (gr_text "15.0000 mm" (at 37.85 62 90) (layer "Dwgs.User") (tstamp b63cfd5d-767f-470f-a60c-2d31f5c327b0)
+    (gr_text "15.0000 mm" (at 37.85 62 90) (layer "Dwgs.User") (tstamp a478f9e3-6693-40a7-a77b-4487b02dfddf)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (units 3) (units_format 1) (precision 4))
