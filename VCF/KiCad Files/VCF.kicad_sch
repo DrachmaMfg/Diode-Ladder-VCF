@@ -2702,7 +2702,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 30.48 74.295 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2163dbd0-9c20-4f43-b9c8-b7932544841e)
-    (property "Reference" "DRIVE1" (id 0) (at 28.829 73.4603 0)
+    (property "Reference" "RV2" (id 0) (at 28.829 73.4603 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 28.829 75.9972 0)
@@ -2866,10 +2866,10 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 62.865 113.03 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 381f4c0d-9543-4911-8da2-34e065cd7bd2)
-    (property "Reference" "CUT1" (id 0) (at 61.214 112.1953 0)
+    (property "Reference" "RV1" (id 0) (at 61.2141 112.1953 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100k" (id 1) (at 61.214 114.7322 0)
+    (property "Value" "100k" (id 1) (at 61.2141 114.7322 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "1_CUSTOM:Potentiometer_Alpha_Metal" (id 2) (at 62.865 113.03 0)
@@ -3090,7 +3090,7 @@
   (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 21.59 62.23 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5c1b3168-0f23-417d-aad7-0902d6085c21)
-    (property "Reference" "J1" (id 0) (at 17.0181 60.7603 0)
+    (property "Reference" "J3" (id 0) (at 17.0181 60.7603 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "AUDIO_IN" (id 1) (at 17.0181 63.2972 0)
@@ -3310,7 +3310,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 59.055 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 709215a6-0e79-4071-81e0-fccd8f17331b)
-    (property "Reference" "CV_AMT2" (id 0) (at 59.055 152.7794 90))
+    (property "Reference" "RV5" (id 0) (at 59.055 152.7794 90))
     (property "Value" "100k" (id 1) (at 59.055 155.3163 90))
     (property "Footprint" "1_CUSTOM:Potentiometer_Alpha_Metal" (id 2) (at 59.055 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3342,7 +3342,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 219.71 66.675 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 746d8b00-b8bf-43c7-aa7a-571bd4239b35)
-    (property "Reference" "RESO1" (id 0) (at 219.71 69.5944 90))
+    (property "Reference" "RV3" (id 0) (at 219.71 69.5944 90))
     (property "Value" "100k" (id 1) (at 219.71 72.1313 90))
     (property "Footprint" "1_CUSTOM:Potentiometer_Alpha_Metal" (id 2) (at 219.71 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3504,7 +3504,7 @@
   (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 46.99 149.86 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8e3c0888-34bb-466d-9c9f-31b726e28c32)
-    (property "Reference" "J3" (id 0) (at 42.4181 148.3903 0)
+    (property "Reference" "J2" (id 0) (at 42.4181 148.3903 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CV2" (id 1) (at 42.4181 150.9272 0)
@@ -4086,7 +4086,7 @@
   (symbol (lib_id "Connector:AudioJack2_SwitchT") (at 46.99 131.445 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cf157f36-01a1-4d50-b942-70f5c7e8db53)
-    (property "Reference" "J2" (id 0) (at 42.4181 129.9753 0)
+    (property "Reference" "J1" (id 0) (at 42.4181 129.9753 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CV1" (id 1) (at 42.4181 132.5122 0)
@@ -4219,7 +4219,7 @@
   (symbol (lib_id "Device:R_Potentiometer_US") (at 59.055 131.445 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid df147264-04c5-448c-aef7-d922329bd23c)
-    (property "Reference" "CV_AMT1" (id 0) (at 59.055 134.3644 90))
+    (property "Reference" "RV4" (id 0) (at 59.055 134.3644 90))
     (property "Value" "100k" (id 1) (at 59.055 136.9013 90))
     (property "Footprint" "1_CUSTOM:Potentiometer_Alpha_Metal" (id 2) (at 59.055 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4598,15 +4598,6 @@
     (path "/0675b370-d5fc-44a2-8a25-8aaaa2c65ed7"
       (reference "C13") (unit 1) (value "10u") (footprint "Capacitor_SMD:CP_Elec_5x5.4")
     )
-    (path "/381f4c0d-9543-4911-8da2-34e065cd7bd2"
-      (reference "CUT1") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
-    )
-    (path "/df147264-04c5-448c-aef7-d922329bd23c"
-      (reference "CV_AMT1") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
-    )
-    (path "/709215a6-0e79-4071-81e0-fccd8f17331b"
-      (reference "CV_AMT2") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
-    )
     (path "/5dde91f8-ddf6-45eb-a0db-b81980ac66ac"
       (reference "D1") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
@@ -4643,17 +4634,14 @@
     (path "/a776e414-9046-42a3-a7a7-5139c42ce5c9"
       (reference "D16") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
-    (path "/2163dbd0-9c20-4f43-b9c8-b7932544841e"
-      (reference "DRIVE1") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
-    )
-    (path "/5c1b3168-0f23-417d-aad7-0902d6085c21"
-      (reference "J1") (unit 1) (value "AUDIO_IN") (footprint "1_CUSTOM:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Compact")
-    )
     (path "/cf157f36-01a1-4d50-b942-70f5c7e8db53"
-      (reference "J2") (unit 1) (value "CV1") (footprint "1_CUSTOM:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Compact")
+      (reference "J1") (unit 1) (value "CV1") (footprint "1_CUSTOM:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Compact")
     )
     (path "/8e3c0888-34bb-466d-9c9f-31b726e28c32"
-      (reference "J3") (unit 1) (value "CV2") (footprint "1_CUSTOM:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Compact")
+      (reference "J2") (unit 1) (value "CV2") (footprint "1_CUSTOM:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Compact")
+    )
+    (path "/5c1b3168-0f23-417d-aad7-0902d6085c21"
+      (reference "J3") (unit 1) (value "AUDIO_IN") (footprint "1_CUSTOM:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Compact")
     )
     (path "/49ae8030-f3a5-42e5-a910-2db8c6cc87f3"
       (reference "J4") (unit 1) (value "AUDIO_OUT") (footprint "1_CUSTOM:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Compact")
@@ -4739,8 +4727,20 @@
     (path "/990273bc-87f9-42af-ae7b-c3ea2e3de36c"
       (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
+    (path "/381f4c0d-9543-4911-8da2-34e065cd7bd2"
+      (reference "RV1") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
+    )
+    (path "/2163dbd0-9c20-4f43-b9c8-b7932544841e"
+      (reference "RV2") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
+    )
     (path "/746d8b00-b8bf-43c7-aa7a-571bd4239b35"
-      (reference "RESO1") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
+      (reference "RV3") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
+    )
+    (path "/df147264-04c5-448c-aef7-d922329bd23c"
+      (reference "RV4") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
+    )
+    (path "/709215a6-0e79-4071-81e0-fccd8f17331b"
+      (reference "RV5") (unit 1) (value "100k") (footprint "1_CUSTOM:Potentiometer_Alpha_Metal")
     )
     (path "/c2e3be15-ede1-4026-84c1-4e22811d1263"
       (reference "SW1") (unit 1) (value "SW_DPDT_x2") (footprint "1_CUSTOM:SW_DPDT_2MD1T2B1M1QES")
